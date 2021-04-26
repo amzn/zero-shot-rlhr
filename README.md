@@ -1,8 +1,10 @@
 # Improving Pretrained Models for Zero-shot Multi-label Text Classification through Reinforced Label Hierarchy Reasoning
 
-Code for NAACL2021 long paper "Improving Pretrained Models for Zero-shot Multi-label Text Classification through Reinforced Label Hierarchy Reasoning".
+This is the PyTorch companion code for the paper:
 
-**If you have any question about the code, please send me an email or leave a github issue.**
+Hui Liu, Danqing Zhang, Bing Yin, Xiaodan Zhu. [Improving Pretrained Models for Zero-shot Multi-label Text Classification through Reinforced Label Hierarchy Reasoning](https://www.amazon.science/publications/improving-pretrained-models-for-zero-shot-multi-label-text-classification-through-reinforced-label-hierarchy-reasoning). NAACL-HLT 2021, long paper
+
+**If you have any question about the code, please send me an email (hui.liu@queensu.ca) or leave a github issue.**
 
 ## Overview
 
