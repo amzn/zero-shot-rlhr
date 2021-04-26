@@ -1,0 +1,34 @@
+random_seed: 17
+learning_rate: 0.00001
+adam_epsilon: 0.00000001
+negative_sample_num: 10
+max_source_seq_length: 240
+max_seq_length: 256
+per_gpu_train_batch_size: 64
+per_training_step_batch_size: 16
+gradient_accumulation_steps: 1
+num_training_steps: -1
+num_training_epochs: 5
+num_warmup_steps: 500
+save_steps: 500
+logging_steps: 100
+K: 2
+tree_depth: 4
+
+weight_decay: 0.01
+max_grad_norm: 1.0
+
+use_path: null
+n_gpu: null
+local_rank: null
+device: null
+
+data_dir: ../../preprocessing
+output_dir: output/
+result_dir: result/
+cache_dir: cache/
+rl_result_dir: rl_result/
+rl_cache_dir: rl_cache/
+cached_feature_dir: cached_input/
+model_config: bert-base-uncased
+model_path: null
